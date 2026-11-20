@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "enargo": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/server/enargo-mcp.mjs"],
+      "env": {
+        "ENARGO_URL": "${ENARGO_URL:-https://app.enargo.ai}",
+        "ENARGO_CLIENT_ID": "${ENARGO_CLIENT_ID}",
+        "ENARGO_CLIENT_SECRET": "${ENARGO_CLIENT_SECRET}"
+      }
+    }
+  }
+}

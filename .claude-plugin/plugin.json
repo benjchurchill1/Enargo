@@ -1,0 +1,24 @@
+{
+  "name": "enargo",
+  "version": "0.1.0",
+  "description": "Work with Enargo, the energy bill validation platform, through its MCP server: load and check supplier bills, onboard a client, and review the action plan, findings and alerts.",
+  "author": {
+    "name": "Enargo"
+  },
+  "homepage": "https://app.enargo.ai",
+  "license": "MIT",
+  "keywords": [
+    "energy",
+    "bill-validation",
+    "utilities",
+    "mcp",
+    "enargo"
+  ],
+  "icon": ".claude-plugin/icon.png",
+  "network": {
+    "hosts": [
+      "app.enargo.ai"
+    ]
+  },
+  "repository": "https://github.com/benjchurchill1/Enargo"
+}

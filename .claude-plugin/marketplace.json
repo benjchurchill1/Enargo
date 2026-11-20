@@ -1,0 +1,15 @@
+{
+  "name": "enargo",
+  "owner": {
+    "name": "Enargo"
+  },
+  "description": "The Enargo plugin for Claude: energy bill validation through the Enargo MCP server.",
+  "plugins": [
+    {
+      "name": "enargo",
+      "source": "./",
+      "description": "Work with Enargo, the energy bill validation platform, through its MCP server.",
+      "version": "0.1.0"
+    }
+  ]
+}
